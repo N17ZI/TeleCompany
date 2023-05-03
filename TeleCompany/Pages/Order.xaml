@@ -1,0 +1,17 @@
+﻿<Page x:Class="TeleCompany.Pages.Order"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TeleCompany.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Order">
+
+    <Grid Height="450" VerticalAlignment="Center" HorizontalAlignment="Left" Width="800" Background="LightCoral">
+        <TextBox Margin="65,74,483,324"/>
+        <TextBox Margin="65,154,483,244"/>
+        <TextBox Margin="65,239,483,159"/>
+        <Button Margin="65,331,483,67">Подать заказ</Button>
+    </Grid>
+</Page>
